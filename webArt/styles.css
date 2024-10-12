@@ -1,0 +1,160 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #ff7590;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #ff7590;
+  color: white;
+}
+
+.profile-section img {
+  width: 250px;
+  height: 300px;
+  
+  border: 3px solid #99ff75;
+  margin-bottom: 20px;
+}
+
+.profile-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.profile-section p {
+  font-size: 1.1em;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+main.home-categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+}
+
+.category {
+  background-color: #ff7590;
+  border: 1px solid #ddd;
+  padding: 30px;
+  width: 22%;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.category:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.category h2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  color: #333;
+}
+
+/* Additional Sections */
+.additional-sections {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  background-color: #90ff75;
+}
+
+.section {
+  width: 40%;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.section ul {
+  list-style-type: none;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+}
+
+.section ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.section ul li a:hover {
+  color: #007BFF;
+}
+
+/* Footer (optional) */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #333;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #333;
+  color: white;
+}
+
+/*Acrylics */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* space between images */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image-box {
+  overflow: hidden;
+  border: 2px solid #ccc;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.back-button {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
